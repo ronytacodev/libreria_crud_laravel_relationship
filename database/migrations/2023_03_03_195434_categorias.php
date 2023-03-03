@@ -8,17 +8,29 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     *
+     *
      */
     public function up(): void
     {
         //
+        Schema::create('categorias', function (Blueprint $table) {
+
+            $table->engine = "InnoDB";
+            $table->bigIncrements('id');
+            $table->string('nombre');
+            $table->timestamps();
+        });
     }
 
     /**
      * Reverse the migrations.
+     *
+     * @return void
      */
     public function down(): void
     {
         //
+
     }
 };
