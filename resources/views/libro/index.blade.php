@@ -36,7 +36,7 @@
                                     <tr>
                                         <th>No</th>
                                         
-										<th>Categoria Id</th>
+										<th>Categoría</th>
 										<th>Nombre</th>
 
                                         <th></th>
@@ -47,7 +47,11 @@
                                         <tr>
                                             <td>{{ ++$i }}</td>
                                             
-											<td>{{ $libro->categoria_id }}</td>
+											<td>
+
+                                                {{ $libro->categoria->nombre }}
+
+                                            </td>
 											<td>{{ $libro->nombre }}</td>
 
                                             <td>
