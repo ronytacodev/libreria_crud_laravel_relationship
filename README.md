@@ -7,6 +7,28 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# CRUD APP WITH RELATIONAL TABLES
+
+Let's build an CRUD with Laravel and table relationships.
+
+Tables created are books and categories.
+
+## STACK TECH:
+
+* LARAVEL 10
+* BOOTSTRAP 5
+* MYSQL
+
+## Screenshot 
+
+* Table Books
+
+![](resources/assets/table-books.jpg)
+
+* Table Categories
+
+![](resources/assets/tabl-categ.jpg)
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
